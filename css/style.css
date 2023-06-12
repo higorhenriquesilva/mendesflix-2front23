@@ -1,7 +1,7 @@
 :root{
     --branco-principal: #fff;
-    --botao-azul: #000000;
-    --cor-de-fundo: #0040ff;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -22,11 +22,15 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.assine_botao{
+.assine_botao, .container_botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
+}
+.botao_segundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
 }
