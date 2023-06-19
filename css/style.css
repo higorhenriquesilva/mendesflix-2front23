@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 :root{
     --branco-principal: #fff;
     --botao-azul: #167bf7;
@@ -7,7 +8,7 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 *{
     margin: 0;
@@ -33,32 +34,31 @@ body{
     display: block;
     margin: 20px;
 }
-.botao_segundario{
+.botao_secundario{
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--branco-principal);
 }
 .container img{
-   margin: 1em 0 2em 0;
+    margin: 1em 0 2em 0;
 }
 .container div{
-   margin: 6em;
-   text-align:  center;
-}
-.container aviso{
-  padding: 10px;
-  font-size: 10px
+    margin: 6em;
+    text-align: center;
 
 }
-  .CONTAINER_SECUNDARIO{
+.container_aviso{
+    padding: 10px;
+    font-size: 10px;
+}
+.container.secundario{
     width: 80%;
-  }
-.secundario{
-  align-items:  700;
-  margin: 38px;
-
 }
-.descricao_titulo{
-   font-weight: 700;
-   font-size: 38px;
-   color: var(-- branco-principal);
+.secundario{
+    align-items: center;
+    margin: 0 auto;
+}
+.descriçao_titulo{
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--branco-principal);
 }
